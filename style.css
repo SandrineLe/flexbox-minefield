@@ -79,6 +79,29 @@ margin:0;}
   text-align: center;
 }
 
+
+
+.item-c {position:absolute;
+  border: outset;
+  color:transparent;
+  width: 26px;
+  height: 26px;
+  font-size: 22px;
+  text-align: center;
+}
+.item-c:hover {position:absolute;
+  color:inherit;
+  border: inset;
+  width: 26px;
+  height: 26px;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+
+
+
 .item-blue {
   color: #0e2fff;
   background-color:#d4d4d4;

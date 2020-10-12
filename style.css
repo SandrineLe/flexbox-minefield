@@ -1,0 +1,116 @@
+/* BODY + M/P */
+
+body {    font-family: '8-bit_operator_scbold';
+  background-color: #fff;
+  margin: 5% auto;
+  padding:0;}
+
+body p{
+  font-size:13.5px;
+  color:#333;
+  font-weight:300;
+  line-height:1.6;
+  text-align: justify;}
+
+*{padding:0;
+margin:0;}
+
+/* FONTFACE */
+
+@font-face {
+    font-family: '8-bit_operator_scbold';
+    src: url('./font/8bitoperatorplussc-bold_10.12.05-webfont.woff2') format('woff2'),
+         url('./font/8bitoperatorplussc-bold_10.12.05-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+
+/* CONTAINER */
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  background-color:#cbcbcb;
+  width:20%;
+  border-style: inset;
+}
+
+/* ITEMS */
+
+.item {    font-family: '8-bit_operator_scbold';
+  background-color: #d4d4d4;
+  border-right: 1px dotted black;
+  border-bottom: 1px dotted black;
+  width: 31px;
+  height: 31px;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+.item-bomb {
+  background-color: #d4d4d4;
+  border-right: 1px dotted black;
+  border-bottom: 1px dotted black;
+  width: 31px;
+  height: 31px;
+  background-image: url(bomb.svg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 18px;
+  text-align: center;
+}
+
+.item-click {
+  background-color: #d4d4d4;
+  border: outset;
+  width: 26px;
+  height: 26px;
+  font-size: 22px;
+  text-align: center;
+}
+.item-click:hover {
+  background-color: #d4d4d4;
+  border: inset;
+  width: 26px;
+  height: 26px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.item-blue {
+  color: #0e2fff;
+  background-color:#d4d4d4;
+  border-right: 1px dotted black;
+  border-bottom: 1px dotted black;
+  width: 31px;
+  height: 31px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.item-red {
+  color: #ff2900;
+  background-color:#d4d4d4;
+  border-right: 1px dotted black;
+  border-bottom: 1px dotted black;
+  width: 31px;
+  height: 31px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.item-green {
+  color: #008f00;
+  background-color:#d4d4d4;
+  border-right: 1px dotted black;
+  border-bottom: 1px dotted black;
+  width: 31px;
+  height: 31px;
+  font-size: 22px;
+  text-align: center;
+}
